@@ -1,0 +1,121 @@
+.con {
+    height: 275vh;
+    width: 100vw;
+}
+
+.img {
+    width: 29%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+
+.button {
+    padding: 10px 15px;
+    margin: 0 20px;
+
+    color: rgb(28 96 32);
+    background-color: rgb(240, 240, 240);
+    border: 3px solid rgb(116, 253, 36);
+    border-radius: 18px 0px;
+
+}
+
+a {
+    text-decoration-line: none;
+    color: rgb(102 209 0);
+    margin: 0 50px;
+}
+
+a:hover {
+    font-size: 15px;
+    color: rgb(2, 219, 223);
+
+}
+
+
+
+
+nav {
+    margin-left: 200px;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px;
+    background-color: rgb(212, 209, 209);
+
+}
+
+main {
+    background-color: rgb(240, 240, 240);
+    height: 70vh;
+    position: relative;
+    display: flex;
+    padding: 0 45px;
+    align-items: center;
+}
+
+.seti {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 92%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+}
+
+
+h3 {
+    color: rgb(184, 0, 0);
+    padding: 0;
+    margin: 0;
+    font-family:
+}
+
+p {
+    margin-bottom: 50px;
+
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+
+    padding: 0;
+    margin: 0px 100px;
+
+
+}
+
+.block1 {
+    width: 100wh;
+}
+
+footer {
+    background-color: rgb(214, 215, 215);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.seti2 {
+    display: flex;
+
+}
+
+.a {
+    margin: 10px;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.a1 {
+    margin: 7px;
+
+}
