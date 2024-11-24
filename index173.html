@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="con">
+        <form action="">
+            <label for="">Email: <input type="text" id="email" placeholder="Email" required></label><br><br>
+            <label for="">Номер телефона: <input type="text" id="phone" placeholder="num"></label><br><br>
+            <button type="button" onclick="Validate()">Зарегистрироваться</button>
+        </form>
+        <p id="error" style="color: red;"></p>
+    </div>
+    <script>
+        function Validate() {
+            const email = document.getElementById("email").value;
+            const phone = document.getElementById("phone").value;
+            const error = document.getElementById("error");
+            /*  const emailPattern=/^[]
+             const emailPattern=/^[] */
+            if (!emailPattern.test(email)) {
+                error.textContent = "Введите корректный email";
+                return false;
+            }
+            if (!phonePattern.test(phone)) {
+                error.textContent = "Введите корректный номер ";
+                return false;
+            }
+            alert(" Вы зарегистрированы")
+        }
+    </script>
+    <style>
+
+    </style>
+
+
+</body>
+
+</html>
